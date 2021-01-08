@@ -16,7 +16,7 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
     >* For ADS, you'll need to email DDAR support to ask them to use IT admin credentials to finish the install after downloading.
 
 ## Getting Started
-*Note: These instructions were made using Azure Data Studio (ADS) as opposed to Visual Studio Code (VSC); however, the interfaces are similar. VSC requires you to first download SQL extension before you can use it.* 
+*Note: These instructions were made using Azure Data Studio (ADS) as opposed to Visual Studio Code (VSC); however, the interfaces are similar. VSC requires you to first install an SQL extension before you can use it.* 
 1. Install VSC or ADS. If installing ADS, you will need to close the program and reboot your machine after installation in order to access the warehouse servers.
 2. Connect ADS to the warehouse "adis" server. On the ADS welcome screen, choose to create a connection to open the Connection dialogue pop-up screen. 
 3. In the Connection Details screen at the bottom, complete with the following info:
