@@ -36,31 +36,32 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
 ## Linking Visual Studio Code or Azure Data Studio to Git and GitHub
 1. Create a folder *under your name* on Box/One Drive. Name this folder "**repos**"
 
-2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared), expand the drop down arrow and double-click on the URL to copy it. The first time you do this, you will need to enter your GitHub user name/password.
+2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared), expand the drop down arrow and copy the URL to your clipboard. The first time you do this, you will need to enter your GitHub user name/password.
 
 ![CopyURL](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation19.JPG)
 
-3. Open the a terminal in VSC or ADS. Click **View-> Terminal**
+3. Open the terminal in VSC or ADS. Click **View-> Terminal**
 
 4. At the **Terminal prompt**, type `cd ~`
 
-5. At the **next Terminal prompt**, you need to direct the terminal to your folder via the file path. Type `"Box/b-research-analytics Shared/`INSERT YOUR NAME`/`INSERT YOUR REPOS FOLDER NAME`"`
+5. At the **next Terminal prompt**, you need to direct the terminal to your folder via the file path. Type `"Box/b-research-analytics Shared/`INSERT YOUR NAME`/repos"` 
+- **Note: You must include the quotation marks.**
 
 6. At the **next Terminal prompt**, type `git clone https://github.com/kky1/sql-queries-shared.git`
 
 ![Cloning a repos](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation20.JPG)
 
-7. Congratulations, the repository has been cloned. You now have access to all files in the repos.
+7. Congratulations, the repository kky1/sql-queries-shared has been cloned. You now have access to all files in the repos.
 
 ## Navigating Visual Studio Code or Azure Data Studio
 The vertical bar on the left contains six icons to help you navigate. Starting from the top **(screenshots below)**:
 
- >* Connections - this is where you can find the warehouse tables & views on the server to which you are connected. This is helpful to look up field names or table content.
+ >* **Connections** - this is where you can find the warehouse tables & views on the server to which you are connected. This is helpful to look up field names or table content.
  >* Search - not used for our purposes
  >* Notebook - not used for our purposes
- >* Explorer - this is where your queries are stored. We do not have the permissions to execute functions or stored procedures. We are also not able to insert or alter live tables; however, we can create temp tables and alter them (just as we did in Access).
- >* Source Control - this is where you commit (or update) the queries you have built. You should commit queries to Git on your machine before you push (or send) the updated versions to GitHub online.
-  >* Extensions - VSC and ADS allows you to install extensions. In VSC, you must install a SQL extension before getting started. In ADS, you can skip this step. Some extensions allow for the visualization of your list results into charts, etc.
+ >* **Explorer** - this is where your queries are stored. We do not have the permissions to execute functions or stored procedures. We are also not able to insert or alter live tables; however, we can create temp tables and alter them (just as we did in Access).
+ >* **Source Control** - this is where you commit (or update) the queries you have built. You should commit queries to Git on your machine before you push (or send) the updated versions to GitHub online.
+  >* **Extensions** - VSC and ADS allows you to install extensions. In VSC, you must install a SQL extension before getting started. In ADS, you can skip this step. Some extensions allow for the visualization of your list results into charts, etc.
 
 ## Screenshots
 Here are the tables and views in the "adis" server. Views are just queries built by the IT team (denormalized tables) and TMS tables.
@@ -75,9 +76,9 @@ VSC or ADS alerts you that you have pending changes.
 
 ![Pending Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation3.JPG)
 
-You then committ (or update) these edited queries as below by clicking the checkmark committ icon. This will only update them in Git on your machine. ADS will prompt you to include a comment about the update in the dialogue box.
+You then commit (or update) these edited queries as below by clicking the checkmark commit icon. This will only update them in Git on your machine. ADS will prompt you to include a comment about the update in the dialogue box.
 
-![Committ Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation5.JPG)
+![Commit Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation5.JPG)
 
 After committing changes to Git, you should then Push (or send) the updated queries to your repository on GitHub. This is how you can share updates with colleagues. Click on the elipses and select Push.
 
@@ -96,7 +97,7 @@ Within each repository, you have a default folder called **Main** or **Master** 
 
 Here is a simplistic breakdown:
 1. You **connect to server and build queries using VSC or ADS** which is the interface to guide you in writing t-sql queries (much like how we use Access or SAS to write queries). 
-2. You **committ** (or update) the queries to Git. This updates the queries in Git on your machine.
+2. You **commit** (or update) the queries to Git. This updates the queries in Git on your machine.
 3. Then you **push** (or send) the updated queries to GitHub. 
 4. In GitHub, you will then receive a notice to **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitHub. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
 5. Once you are confident in the query, you can **merge** it to the Main (or default) repository. 
@@ -106,7 +107,7 @@ Here is a very simplistic sandbox repository with just one branch "feature/KKYCA
 
 ![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
 
-After I **committ** query updates to Git and **push** them to GitHub, I will see the following **compare & pull request** when I login to my GitHub account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
+After I **commit** query updates to Git and **push** them to GitHub, I will see the following **compare & pull request** when I login to my GitHub account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
 
 ![Compare pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation8.JPG)
 
