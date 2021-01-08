@@ -46,27 +46,27 @@ The vertical bar on the left contains six icons to help you navigate. Starting f
 ## Screenshots
 Here are the tables and views in the "adis" server. Views are the denormalized and TMS tables.
 
-[![Connections Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation.JPG)]
+![Connections Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation.JPG)
 
 Your queries are stored in the Explorer screen.
 
-[![Explorer Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation2.JPG)]
+![Explorer Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation2.JPG)
 
 VSC or ADS alerts you that you have pending changes. 
 
-[![Pending Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation3.JPG)]
+![Pending Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation3.JPG)
 
 You then committ (or update) these edited queries as below. This will only update them in Git on your machine.
 
-[![Committ Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation5.JPG)
+![Committ Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation5.JPG)
 
 After committing changes to Git, you should then Push (or send) the updated queries to your repository on GitHub. This is how you can share updates with colleagues.
 
-[![Push Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation6.JPG) 
+![Push Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation6.JPG) 
 
 There are many extensions you can install within VSC or ADS to guide you to write t-sql or to enable you to visualize query results.
 
-[![Sandance Extension](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation7.JPG)
+![Sandance Extension](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation7.JPG)
 
 ## Working with Git and GitHub
 Git and GitHub are just an interface to save versions of your work, and to collaborate and share those verions with colleagues. If a group were working together on a large project, they can use Git to "push" (or send) queries to one another for "compare" (or review). 
@@ -85,21 +85,21 @@ Here is a simplistic breakdown:
 ## GitHub Screenshots
 Here is a very simplistic sandbox repository with just one branch "feature/KKY" 
 
-[![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
+![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
 
 After I **committ** query updates to Git and **push** them to GitHub, I will see the following **compare & pull request** when I login to my GitHub account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
 
-[![Compare pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation8.JPG)
+![Compare pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation8.JPG)
 
-[![Create pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation9.JPG)
+![Create pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation9.JPG)
 
 Now I am able to **Merge pull request** and **Confirm merge** which means I am sending the updates to **Main** 
 
-[![Merge pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation10.JPG)
+![Merge pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation10.JPG)
 
 After merging to **Main**, you will have the option to **Delete branch**.
 
-[![Merge successful](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation12.JPG)
+![Merge successful](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation12.JPG)
 
 ## Helpful Resources
 
