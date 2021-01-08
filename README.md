@@ -99,9 +99,7 @@ Now I am able to **Merge pull request** and **Confirm merge** which means I am s
 
 After merging to **Main**, you will have the option to **Delete branch**.
 
-[![Merge successful](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation10.JPG)
-
-
+[![Merge successful](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation12.JPG)
 
 ## Helpful Resources
 
