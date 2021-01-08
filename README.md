@@ -82,14 +82,28 @@ Here is a simplistic breakdown:
 4. In GitHub, you the **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitHub. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
 5. Once you are confident in the query, you can **merge** it to the Main (or default) repository. 
 
-## Screenshots
-Here is a private sandbox repository with one branch "feature/KKY" 
+## GitHub Screenshots
+Here is a very simplistic sandbox repository with just one branch "feature/KKY" 
 
-[![Sandance Extension](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation7.JPG)
+[![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
+
+After I **committ** query updates to Git and **push** them to GitHub, I will see the following **compare & pull request** when I login to my GitHub account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
+
+[![Compare pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation8.JPG)
+
+[![Create pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation9.JPG)
+
+Now I am able to **Merge pull request** and **Confirm merge** which means I am sending the updates to **Main** 
+
+[![Merge pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation10.JPG)
+
+After merging to **Main**, you will have the option to **Delete branch**.
+
+[![Merge successful](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation10.JPG)
+
 
 
 ## Helpful Resources
 
 1. [Introduction to Using Git and GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/). Composed of 5 modules, the complete training is about an hour long. 
 2. [How to Integrate Git to your GitHub online account](https://www.sqlshack.com/integrating-azure-data-studio-with-git-and-github/). This page provides step-by-step screenshots on the process, including how to create a respository and then link it to your Git in Azure Data Studio (or Visual Studio Code-same process) using GitHub.
-
