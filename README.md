@@ -34,18 +34,23 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
     Note: You can repeat this process to **create a 2nd connection to the "analytics" server**. Just choose the **Database: anaytics** from the drop down.
 
 ## Linking Visual Studio Code or Azure Data Studio to Git and GitHub
-1. Create a folder under your name on Box/One Drive (usually named "repos").
+1. Create a folder *under your name* on Box/One Drive. Name this folder "**repos**"
 
-2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared) expand the drop down arrow and double-click on the URL to copy it. The first time you do this, you will need to enter your GitHub user name/password.
+2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared), expand the drop down arrow and double-click on the URL to copy it. The first time you do this, you will need to enter your GitHub user name/password.
 
+![CopyURL](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation19.JPG)
 
+3. Open the a terminal in VSC or ADS. Click **View-> Terminal**
 
-3. In VSC or ADS, navigate to **View-> Command Palette** and look for the **Git Add Remote**.
+4. At the **Terminal prompt**, type `cd ~`
 
-3. It will prompt you for a URL. You will want to specify the **URL of the GitHub repository** you just created. 
+5. At the **next Terminal prompt**, you need to direct the terminal to your folder via the file path. Type `"Box/b-research-analytics Shared/`INSERT YOUR NAME`/`INSERT YOUR REPOS FOLDER NAME`"`
 
+6. At the **next Terminal prompt**, type `git clone https://github.com/kky1/sql-queries-shared.git`
 
+![Cloning a repos](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation20.JPG)
 
+7. Congratulations, the repository has been cloned. You now have access to all files in the repos.
 
 ## Navigating Visual Studio Code or Azure Data Studio
 The vertical bar on the left contains six icons to help you navigate. Starting from the top **(screenshots below)**:
