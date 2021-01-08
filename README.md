@@ -34,21 +34,15 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
     Note: You can repeat this process to **create a 2nd connection to the "analytics" server**. Just choose the **Database: anaytics** from the drop down.
 
 ## Linking Visual Studio Code or Azure Data Studio to Git and GitHub
-1. **Create a repository** in GitHub (+ icon at top right near your account as pictured below.
-![Create repository Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation13.JPG)
+1. Create a folder under your name on Box/One Drive (usually named "repos").
 
-Here I have created a new repository named "sandbox-public"
+2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared) expand the drop down arrow and double-click on the URL to copy it. The first time you do this, you will need to enter your GitHub user name/password.
 
-![GitHub Repos](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation15.JPG)
 
-2. In VSC or ADS, navigate to **View-> Command Palette** and look for the **Git Add Remote**.
+
+3. In VSC or ADS, navigate to **View-> Command Palette** and look for the **Git Add Remote**.
 
 3. It will prompt you for a URL. You will want to specify the **URL of the GitHub repository** you just created. 
-
-In this example, I have pasted the URL of "sandbox-public" when prompted. It opens a pop-up window that asks for the remote name. You can give it any user-friendly name. Press Enter.
-![GitHub URL](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation14.JPG)
-
-
 
 
 
