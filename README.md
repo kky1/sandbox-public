@@ -34,7 +34,7 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
     Note: You can repeat this process to **create a 2nd connection to the "analytics" server**. Just choose the **Database: anaytics** from the drop down.
 
 ## Linking Visual Studio Code or Azure Data Studio to Git and GitHub
-1. Create a folder *under your name* on Box/One Drive. Name this folder "**repos**"
+1. Create a folder *under your name* on Box. Name this folder "**repos**"
 
 2. **Clone an existing GitHub repository to this folder on your local computer**. Go [here](https://github.com/kky1/sql-queries-shared), expand the drop down arrow and copy the URL to your clipboard. The first time you do this, you will need to enter your GitHub user name/password.
 
