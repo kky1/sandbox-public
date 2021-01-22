@@ -48,6 +48,7 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
 - **Note: You must include the quotation marks.**
 
 6. At the **next Terminal prompt**, type `git clone https://github.com/kky1/sql-queries-shared.git`
+- **Note: In the screenshot below, my folder name is `k-repos`.**
 
 ![Cloning a repos](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation20.JPG)
 
