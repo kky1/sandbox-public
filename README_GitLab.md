@@ -38,7 +38,7 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
 
 2. **Clone an existing GitLab repository to this folder on your local computer**. Go [here](https://git.psu.edu/kky1/sql-queries-shared), expand the drop down arrow and copy the **Clone with HTTPS** option.
 
-![CopyURL](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation19.JPG)
+![CopyURL](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/GitLab1.JPG)
 
 3. Open the terminal in VSC or ADS. Click **View-> Terminal**
 
@@ -47,10 +47,10 @@ You can also find these files [here](https://psu.app.box.com/folder/128933181789
 5. At the **next Terminal prompt**, you need to direct the terminal to your folder via the file path. Type `"Box/b-research-analytics Shared/`INSERT YOUR NAME`/repos"` 
 - **Note: You must include the quotation marks.**
 
-6. At the **next Terminal prompt**, type `git clone https://github.com/kky1/sql-queries-shared.git`
+6. At the **next Terminal prompt**, type `git clone https://git.psu.edu/kky1/sql-queries-shared.git`
 - **Note: In the screenshot below, my folder name is `k-repos` instead of `repos` as instructed above.**
 
-![Cloning a repos](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation20.JPG)
+![Cloning a repos](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/GitLab2_cloningrepos.JPG)
 
 7. Congratulations, the repository kky1/sql-queries-shared has been cloned. You now have access to all files in the repos.
 
@@ -89,22 +89,22 @@ There are many extensions you can install within VSC or ADS to guide you to writ
 
 ![Sandance Extension](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation7.JPG)
 
-## Working with Git and GitHub
-Git and GitHub are just an interface to save versions of your work, and to collaborate and share those verions with colleagues. If a group were working together on a large project, they can use Git to "push" (or send) queries to one another for "compare" (or review). 
+## Working with Git and GitLab
+Git and GitLab is an interface to save versions of your work, and to collaborate and share those verions with colleagues. If a group were working together on a large project, they can use Git to "push" (or send) queries to one another for "compare" (or review). 
 
-Git is located locally on your machine. GitHub is an online account where you create repositories (or folders) to store queries. It is a good idea to have a private repository (often called a sandbox for query-building) and a public repository (used to share queries amongst your colleagues once finalized). 
+Git is located locally on your machine. GitLab is an online account where you create repositories (or folders) to store queries. It is a good idea to have a private repository (often called a sandbox for query-building) and a public repository (used to share queries amongst your colleagues once finalized). 
 
-Within each repository, you have a default folder called **Main** or **Master** and you have **Branches** (or "working folders") usually named as **feature/userid-qryname** because these are subfolders where you can edit queries without affecting what is saved in **Main**. The whole idea of GitHub is to work on versions in the branch folders and then once finalized, merge them into main. After that, you can delete the branch folder and create a new one for the next project.
+Within each repository, you have a default folder called **Main** or **Master** and you have **Branches** (or "working folders") usually named as **feature/userid-unitcode** because these are subfolders where you can edit queries without affecting what is saved in **Main**. The whole idea of GitLab is to work on versions in the branch folders and then once finalized, merge them into main. After that, you can delete the branch folder and create a new one for the next project.
 
 Here is a simplistic breakdown:
 1. You **connect to server and build queries using VSC or ADS** which is the interface to guide you in writing t-sql queries (much like how we use Access or SAS to write queries). 
 2. You **commit** (or update) the queries to Git. This updates the queries in Git on your machine.
-3. Then you **push** (or send) the updated queries to GitHub. 
-4. In GitHub, you will then receive a notice to **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitHub. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
-5. Once you are confident in the query, you can **merge** it to the Main (or default) repository. 
+3. Then you **push** (or send) the updated queries to GitLab. 
+4. In GitLab (if the settings for the repository as such that queries must be reviewed before they can be merged to main), you would then receive a notice to **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitLab. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
+5. Once you are confident the query is working correctly, you can **merge** it to the Main (or default) repository. 
 
-## GitHub Screenshots
-Here is a very simplistic sandbox repository with just one branch "feature/KKYCAAROC-1-2" 
+## GitLab Screenshots
+Here is a very simplistic sandbox repository with two branches - one for each of my units: feature/kky-CAA & feature/kky-ENG
 
 ![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
 
