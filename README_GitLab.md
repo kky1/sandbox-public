@@ -67,27 +67,27 @@ The vertical bar on the left contains six icons to help you navigate. Starting f
 ## Screenshots
 Here are the tables and views in the "adis" server. Views are just queries built by the IT team (denormalized tables) and TMS tables.
 
-![Connections Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation.JPG)
+![Connections Icon](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS%20navigation.JPG)
 
 Your queries are stored in the Explorer screen.
 
-![Explorer Icon](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation2.JPG)
+![Explorer Icon](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS%20navigation2.JPG)
 
 VSC or ADS alerts you that you have pending changes. 
 
-![Pending Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation3.JPG)
+![Pending Changes](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS%20navigation3.JPG)
 
 You then commit (or update) these edited queries as below by clicking the checkmark commit icon. This will only update them in Git on your machine. ADS will prompt you to include a comment about the update in the dialogue box.
 
-![Commit Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation5.JPG)
+![Commit Changes](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS_navigation5.JPG)
 
 After committing changes to Git, you should then Push (or send) the updated queries to your repository on GitHub. This is how you can share updates with colleagues. Click on the elipses and select Push.
 
-![Push Changes](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation6.JPG) 
+![Push Changes](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS%20navigation6.JPG) 
 
 There are many extensions you can install within VSC or ADS to guide you to write t-sql or to enable you to visualize query results.
 
-![Sandance Extension](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation7.JPG)
+![Sandance Extension](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS%20navigation7.JPG)
 
 ## Working with Git and GitLab
 Git and GitLab is an interface to save versions of your work, and to collaborate and share those verions with colleagues. If a group were working together on a large project, they can use Git to "push" (or send) queries to one another for "compare" (or review). 
@@ -100,15 +100,15 @@ Here is a simplistic breakdown:
 1. You **connect to server and build queries using VSC or ADS** which is the interface to guide you in writing t-sql queries (much like how we use Access or SAS to write queries). 
 2. You **commit** (or update) the queries to Git. This updates the queries in Git on your machine.
 3. Then you **push** (or send) the updated queries to GitLab. 
-4. In GitLab (if the settings for the repository as such that queries must be reviewed before they can be merged to main), you would then receive a notice to **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitLab. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
+4. In GitLab (if the settings for the repository require that queries must be reviewed before they can be merged to main), you would then receive a notice to **compare and pull request**. Compare means you review the updated query and pull means you retrieve it to your repository on GitLab. When collaborating, this is when colleagues might ask you to review a query and provide comments, etc.
 5. Once you are confident the query is working correctly, you can **merge** it to the Main (or default) repository. 
 
 ## GitLab Screenshots
 Here is a very simplistic sandbox repository with two branches - one for each of my units: feature/kky-CAA & feature/kky-ENG
 
-![GitHub repository overview](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation11.JPG)
+![GitHub repository overview](https://git.psu.edu/kky1/sql-queries-shared/-/blob/main/screenshots/ADS_navigation11.JPG)
 
-After I **commit** query updates to Git and **push** them to GitHub, I will see the following **compare & pull request** when I login to my GitHub account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
+After I **commit** query updates to Git and **push** them to GitLab, I will see the following **compare & pull request** when I login to my GitLab account. Because I wasn't collaborating with anyone, I just click **Compare & pull request**  and on the next screen click **Create pull request** to move the process along.
 
 ![Compare pull request](https://github.com/kky1/sql-queries-shared/blob/main/screenshots/ADS%20navigation8.JPG)
 
